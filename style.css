@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/programadora.png);
+    background-color: #131313;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio span{
+    color: #d16ce2;
+}
+
+li{
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.link-menu{
+    color: white;
+    text-decoration: none;
+}
+.link-menu:hover{
+    color: #d16ce2;
+    transition: 0.5s;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+}
+.container span{
+    color: #d16ce2; 
+}
+
+.container h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #000000;
+}
+
+section img{
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid #d16ce2;
+    margin-right: 40px;
+}
+
+section div h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+section div p{
+    color: #d16ce2;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+section div button{
+    color: white;
+    background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+section div button:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+        rgba(132, 53, 222, 1) 80%
+      );
+    transition: 0.5s;
+}
+
+.projetos{
+    background-color: #131313;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+
+.card{
+    background: #000000;
+    height: 365px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img{
+    height: 80px;
+}
+
+.card h5{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card p{
+    color: #d16ce2;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.card a{
+    background: linear-gradient(
+        90deg,
+        rgba(132, 53, 222, 1) 0%,
+        rgba(184, 84, 232, 1) 100%
+      );
+      border-radius: 16px;
+      padding: 8px 18px;
+      color: white;
+      cursor: pointer;
+      transition: 0.5s;
+      text-decoration: none;
+}
+
+.card a:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+        rgba(132, 53, 222, 1) 80%
+      );
+    border: 1px solid white;
+}
+
+.card-projetos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+footer{
+    background: #000000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5{
+    color: white;
+    font-size: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.social a{
+    background-color: #d16ce2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
